@@ -1,3 +1,12 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body{
     display:flex;
     flex-direction: column;
@@ -44,7 +53,9 @@ body{
         width: 100%;
         margin-left:10;
         position:absolute;
-        left: 1000px; 
+      
+        text-align: center;
+        right: -200px;
     }
 
 
@@ -135,13 +146,64 @@ justify-content: center;}
 #Services{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
 }
+
+#services1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#services1 h2{
+    margin-left: 100px;
+    margin-right: 100px;
+   
+ 
+}
+#services1 img{
+    width:10%;
+}
+
+#poligon1{
+    text-align: center;
+}
+
+#poligon2{
+    text-align: center;
+}
+
+#poligon3{
+    text-align: center;
+}
+
 
 #Contact
 {
     display: flex;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+  
+    
 }
+
+#rm{
+    display: flex;
+    flex-direction: column;
+}
+
+
 #Footer{
     display: flex;
     justify-content: center;
