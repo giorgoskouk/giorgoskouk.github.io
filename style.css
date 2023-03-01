@@ -1,0 +1,153 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: azure;
+    
+}
+#text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+#text h3{
+    margin:10;
+}
+
+
+
+#main{   display: flex;
+    flex-direction: row;
+    justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    
+   
+
+    #main h2{
+        width: 100%;
+        margin-left:10;
+        position:absolute;
+        left: 1000px; 
+    }
+
+
+
+
+
+
+
+
+
+img{max-width:50%;
+    object-fit:contain;
+}
+
+
+#About{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: azure;
+    
+}
+
+#ceo{display:flex;
+justify-content: center;}
+
+
+
+#About p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+#About img{
+    display: flex;
+    margin-top: -10px;
+    max-width:10%;
+    object-fit:contain;
+    margin-right:40px;
+}
+
+#About img{width: 1000px;}
+
+
+#contact{
+    background-color: black;
+    color: azure;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#About{
+    display: flex;
+    justify-content: center;
+}
+
+#Services{
+    display: flex;
+    justify-content: center;
+}
+
+#Contact
+{
+    display: flex;
+    justify-content: center;
+}
+#Footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+    
+
+ 
