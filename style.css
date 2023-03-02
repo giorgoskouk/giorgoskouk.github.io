@@ -5,12 +5,17 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    
+    
 }
 body{
     display:flex;
     flex-direction: column;
     margin:auto;
+    position: relative;
+    
+    
 
 }
 
@@ -21,7 +26,7 @@ body{
     justify-content: space-between;
     background-color: black;
     color: azure;
-    
+   
 }
 #text{
     display: flex;
@@ -39,36 +44,68 @@ body{
 
 
 
-#main{   display: flex;
+#main{
+    display: flex;
+    
     flex-direction: row;
-    justify-content: center;
-        align-items: center;
-        position: relative;
-    }
+    
     
     
    
+   
 
-    #main h2{
-        width: 100%;
-        margin-left:10;
-        position:absolute;
-      
-        text-align: center;
-        right: -200px;
-    }
-
-
-
-
-
-
-
-
-
-img{max-width:50%;
-    object-fit:contain;
 }
+
+
+
+
+#main img{max-width: 100%;
+    object-fit:contain; 
+    
+}
+
+
+#img2{
+    position: relative;
+}
+
+#img2-1{
+    position: absolute;
+    top:50px;
+}
+
+#img2-1 h2{
+    font-size: 70px;
+   
+}
+#img2-1 button{
+    width: 300px;
+    height: 50px;
+    border-color:black;
+    
+    background-color: rgb(255, 255, 255);
+    font-size: 100%;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
 
 
 #About{
@@ -150,15 +187,19 @@ justify-content: center;}
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    
+    position: relative;
     
 }
+
+
 
 #services1{
     display: flex;
     justify-content: center;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 100px;
+    
     
 }
 
@@ -169,18 +210,33 @@ justify-content: center;}
  
 }
 #services1 img{
-    width:10%;
+    width:50%;
 }
 
 #poligon1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
     text-align: center;
+ 
 }
 
 #poligon2{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
     text-align: center;
+ 
 }
 
 #poligon3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
     text-align: center;
 }
 
@@ -193,6 +249,7 @@ justify-content: center;}
     flex-direction: column;
     padding-top: 100px;
     padding-bottom: 100px;
+    
 
   
     
@@ -210,6 +267,22 @@ justify-content: center;}
     
 }
 
+#img4{
+position: absolute;
+top: 100px;
+}
+
+
+#services1 button{
+    width: 300px;
+    height: 50px;
+    border-color:black;
     
+    background-color: rgb(255, 255, 255);
+    font-size: 100%;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+
 
  
